@@ -3,11 +3,11 @@ from django.shortcuts import render
 
 # Create your views here.
 
+#home page
+def base(request):
+    return render(request, 'base/home.html')
 
-#for home page
-def home(request):
-    return render(request, 'home.html')
+#login Page
+def login(request):
+    return render(request, 'base/login.html')
 
-#for sign up page
-def signUp(request):
-    return render(request, 'signUp.html')
