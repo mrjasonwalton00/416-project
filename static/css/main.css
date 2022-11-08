@@ -1,0 +1,15 @@
+h1 {
+    color: rgb(94, 94, 255);
+}
+p {
+    color: white;
+}
+
+.home-section {
+    color: red;
+}
+
+body {
+    background-color: rgb(67, 67, 67)!important;
+}
+
