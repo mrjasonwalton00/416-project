@@ -11,3 +11,7 @@ def base(request):
 def login(request):
     return render(request, 'base/login.html')
 
+#Find Professor Page
+def findProfessors(request):
+    return render(request, 'base/findProfessors.html')
+
