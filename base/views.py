@@ -15,3 +15,11 @@ def login(request):
 def findProfessors(request):
     return render(request, 'base/findProfessors.html')
 
+#Profile Page
+def profile(request):
+    return render(request, 'base/profile.html')
+
+#Test Form
+def testForm(request):
+    return render(request, 'base/testForm.html')
+

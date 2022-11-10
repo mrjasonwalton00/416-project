@@ -6,12 +6,36 @@
 <h1>Home Page</h1>
 
 <div>
-    <a href="{% url 'login' %}"> Login </a>
+    <button type="button" class="btn btn-dark btn-lg"><a href="{% url 'login' %}"> Login </a></button>
 </div>
 
 <div>
-    <a href="{% url 'findProfessors' %}"> Find Professor </a>
+    <button type="button" class="btn btn-dark btn-lg"><a href="{% url 'findProfessors' %}"> Find Professor </a></button>
 </div>
+
+<div>
+    <button type="button" class="btn btn-dark btn-lg"><a href="{% url 'profile' %}"> profile </a></button>
+</div>
+
+<div>
+    <button type="button" class="btn btn-dark btn-lg"><a href="{% url 'testForm' %}"> Test Form </a></button>
+</div>
+
+<div class="card text-bg-dark w-75">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+      <a href="#" class="btn btn-primary">Button</a>
+    </div>
+  </div>
+  
+  <div class="card text-bg-dark w-50">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+      <a href="#" class="btn btn-primary">Button</a>
+    </div>
+  </div>
 
 
 
