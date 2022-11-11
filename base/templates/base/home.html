@@ -1,41 +1,62 @@
 {% extends 'main.html' %}
-
+{% load static %}
 {% block content %}
 
-
-<h1>Home Page</h1>
-
-<div>
-    <button type="button" class="btn btn-dark btn-lg"><a href="{% url 'login' %}"> Login </a></button>
+<div id = "header">
+    <h5 style="margin-left: 80px">Central Connecticut State University</h5>
+    <h1 style="font-size: 60px;"> Rate My Professor </h1>
 </div>
 
-<div>
-    <button type="button" class="btn btn-dark btn-lg"><a href="{% url 'findProfessors' %}"> Find Professor </a></button>
-</div>
 
-<div>
-    <button type="button" class="btn btn-dark btn-lg"><a href="{% url 'profile' %}"> profile </a></button>
-</div>
-
-<div>
-    <button type="button" class="btn btn-dark btn-lg"><a href="{% url 'testForm' %}"> Test Form </a></button>
-</div>
-
-<div class="card text-bg-dark w-75">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-      <a href="#" class="btn btn-primary">Button</a>
+<div id="search-card" class="card bg-secondary">
+    <img src="{% static 'images/ccsudark.png' %}" alt="CCSU Campus" style="width:100%; height:30%;">
+    <div class="card-img-overlay" style="margin-top:10%; margin-left:40%">
+        <div id="search-words" class="" style="color:white;"><h1>Search for Professors</h1></div>
+        <form action="" method="post">
+            <input type="text" style="width: 300px;" placeholder="Search">
+            <input type="submit">
+        </form>
     </div>
-  </div>
+    <div id="front-cards" class="container card-img-overlay">
+        <div class = "row d-flex justify-content-center">
+            <div class="card text-white bg-dark mb-5 m-3" style="max-width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title" style="color: rgb(55, 72, 255)">Find a Professor</h5>
+                  <p class="card-text" >Type professor's name in search bar.</p>
+                </div>
+              </div>
+              <div class="card text-white bg-dark mb-5 m-3" style="max-width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title" style="color: rgb(55, 72, 255)">View Ratings</h5>
+                  <p class="card-text" >Be able to view 5 star ratings given by students!</p>
+                </div>
+              </div>
+              <div class="card text-white bg-dark mb-5 m-3" style="max-width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title" style="color: rgb(55, 72, 255)" >Give a Rating!</h5>
+                  <p class="card-text" >Post a rating yourself!</p>
+                </div>
+              </div>
+        </div>
+    </div>
+
+
+
+</div>
+
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
   
-  <div class="card text-bg-dark w-50">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-      <a href="#" class="btn btn-primary">Button</a>
-    </div>
-  </div>
 
 
 

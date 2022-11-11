@@ -1,19 +1,75 @@
-h1 {
-    color: rgb(255, 255, 255);
-    background-color: rgb(126, 117, 255);
-    text-align: center;
-    padding: 20px;
-}
-p {
-    color: white;
-}
-
-
-
-
 body {
-    background-color: rgb(67, 67, 67)!important;
+    background-color: #373737 !important;
 }
+
+#nav-bar {
+    height: 125px;
+}
+
+#header {
+    color: hsl(0, 0%, 98%);
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    padding: 10px;
+    margin-left: 50px;
+    margin-right: 100px;
+    margin-top: 15px;
+    background-color: rgb(50, 50, 50);
+    border-radius: 20px;
+}
+#header > h1 {
+    color: rgb(255, 255, 255);
+    font-family: 'Rubik', sans-serif;
+
+    
+}
+
+#search-bar {
+    background-color: rgb(242, 255, 155);
+    border-radius: 10px;
+}
+
+#footer {
+    margin-top: 200px;
+}
+
+#boxes .col-5  {
+    background-color: rgb(255, 132, 0);
+    padding: 100px;
+    border-radius: 10px;
+}
+
+#search-words {
+    
+    margin-right: 400px;
+    border: 0px;
+    font-family: 'Share Tech Mono', monospace;
+    font-family: 'Signika', sans-serif;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+#search-card {
+    margin-top: 40px;
+}
+
+
+  
+.imageContainer {
+         width:200%;
+         height:200%;
+         background-image: url('images/ccsu.png');
+   }
+
+
+#front-cards {
+    margin-top: 350px;
+}
+
+
+
+
+
+
+
 
 
   

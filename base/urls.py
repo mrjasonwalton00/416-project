@@ -8,6 +8,7 @@ urlpatterns = [
     path('findProfessors/', views.findProfessors, name="findProfessors"),
     path('profile/', views.profile, name="profile"),
     path('testForm/', views.testForm, name="testForm"),
+    path('jasonHome/', views.jasonHome, name="jasonHome"),
 ]
 
 

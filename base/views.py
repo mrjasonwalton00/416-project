@@ -23,3 +23,7 @@ def profile(request):
 def testForm(request):
     return render(request, 'base/testForm.html')
 
+#jasonHome
+def jasonHome(request):
+    return render(request, 'base/jasonHome.html')
+
